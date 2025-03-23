@@ -6,7 +6,7 @@ function NavBar() {
             <div className="w-5/6 flex mx-auto px-2 py-3">
                 <NavLink
                     to="/"
-                    className="px-1 text-lg text-fuchsia-950"
+                    className="px-1 text-xl text-fuchsia-950 font-semibold"
                 >
                     Shumie
                 </NavLink>
