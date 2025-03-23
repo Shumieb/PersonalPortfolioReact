@@ -6,6 +6,7 @@ import HomePage from './Pages/HomePage';
 import ProjectsPage from './Pages/ProjectsPage';
 import AboutPage from './Pages/AboutPage';
 import CertificationPage from './Pages/CertificationPage';
+import ProjectPage from './Pages/ProjectPage';
 
 function App() {
 
@@ -25,6 +26,10 @@ function App() {
         {
           path: "/projects",
           element: <ProjectsPage />
+        },
+        {
+          path: "/project/:id",
+          element: <ProjectPage />
         },
         {
           path: "/certification",
