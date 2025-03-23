@@ -7,7 +7,9 @@ function NavBar() {
                 <NavLink to="/" className="px-1 text-lg">Shumie</NavLink>
                 <ul className="flex-3 flex justify-end">
                     <li><NavLink to="/" className="mx-4 px-1 text-lg">Home</NavLink></li>
+                    <li><NavLink to="/about" className="mx-4 px-1 text-lg">About</NavLink></li>
                     <li><NavLink to="/projects" className="mx-4 px-1 text-lg">Projects</NavLink></li>
+                    <li><NavLink to="/certification" className="mx-4 px-1 text-lg">Certification</NavLink></li>
                     <li><NavLink to="/contact" className="mx-4 px-1 text-lg">Contact</NavLink></li>
                 </ul>
             </div>

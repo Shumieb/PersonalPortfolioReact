@@ -1,13 +1,13 @@
-import HomeHero from "../Components/HomeHero"
 import Projects from "../Components/Projects"
+import Skills from "../Components/Skills"
 
-function HomePage() {
+function ProjectsPage() {
     return (
         <main>
-            <HomeHero />
+            <Skills />
             <Projects />
         </main>
     )
 }
 
-export default HomePage
+export default ProjectsPage

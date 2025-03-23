@@ -3,7 +3,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Layout from './Components/Layout';
 import ContactPage from './Pages/ContactPage';
 import HomePage from './Pages/HomePage';
-import Projects from './Pages/Projects';
+import ProjectsPage from './Pages/ProjectsPage';
+import AboutPage from './Pages/AboutPage';
+import CertificationPage from './Pages/CertificationPage';
 
 function App() {
 
@@ -17,8 +19,16 @@ function App() {
           element: <HomePage />
         },
         {
+          path: "/about",
+          element: <AboutPage />
+        },
+        {
           path: "/projects",
-          element: <Projects />
+          element: <ProjectsPage />
+        },
+        {
+          path: "/certification",
+          element: <CertificationPage />
         },
         {
           path: "/contact",
