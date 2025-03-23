@@ -2,7 +2,7 @@ import { Link } from "react-router"
 
 function CertificateCard() {
     return (
-        <section className="rounded-md bg-fuchsia-50 grid grid-cols-2 gap-1 mb-8 drop-shadow-lg">
+        <section className="rounded-md bg-fuchsia-50 grid grid-cols-2 gap-1 mb-8 drop-shadow-lg hover:drop-shadow-xl">
             <div>
                 <img
                     src="https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -23,7 +23,7 @@ function CertificateCard() {
                 <Link
                     to="/"
                     role="button"
-                    className="bg-fuchsia-950 px-4 py-2 text-white rounded-sm w-45 text-center drop-shadow-lg"
+                    className="bg-fuchsia-950 px-4 py-2 text-white rounded-sm w-45 text-center drop-shadow-lg hover:bg-fuchsia-800 hover:drop-shadow-xl"
                 >
                     View Certificate
                 </Link>

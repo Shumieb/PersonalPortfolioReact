@@ -11,7 +11,7 @@ function AboutPage() {
                         Voluptas voluptatem nostrum possimus hic tenetur repudiandae deleniti molestiae quis!
                     </p>
                     <button
-                        className="bg-fuchsia-950 text-white text-center text-lg p-2 rounded-sm w-40 cursor-pointer"
+                        className="bg-fuchsia-950 text-white text-center text-lg p-2 rounded-sm w-40 cursor-pointer hover:bg-fuchsia-800"
                     >
                         Resume
                     </button>

@@ -2,7 +2,7 @@ import { Link } from "react-router"
 
 function ProjectCard() {
     return (
-        <div className="rounded-md bg-fuchsia-50 grid grid-cols-2 gap-1 mb-8 drop-shadow-lg">
+        <div className="rounded-md bg-fuchsia-50 grid grid-cols-2 gap-1 mb-8 drop-shadow-lg hover:drop-shadow-xl">
             <div className="py-2 flex flex-col justify-center px-4">
                 <p className="text-xl pt-2 text-fuchsia-950">Project Name</p>
                 <p className="text-base text-gray-400">Completed: May 2025</p>
@@ -13,7 +13,7 @@ function ProjectCard() {
                 <Link
                     to="/project/1"
                     role="button"
-                    className="bg-fuchsia-950 px-4 py-2 text-white rounded-sm w-30 text-center drop-shadow-lg"
+                    className="bg-fuchsia-950 px-4 py-2 text-white rounded-sm w-30 text-center drop-shadow-lg hover:bg-fuchsia-800 hover:drop-shadow-xl"
                 >
                     View Project
                 </Link>

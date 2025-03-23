@@ -13,14 +13,14 @@ function HomeHero() {
                 </p>
                 <div className="mt-2 py-2">
                     <Link
-                        className="rounded-sm bg-fuchsia-950 text-white px-4 py-2 text-base mr-5 drop-shadow-lg"
+                        className="rounded-sm bg-fuchsia-950 text-white px-4 py-2 text-base mr-5 drop-shadow-lg hover:bg-fuchsia-800"
                         to="/projects"
                         role="button"
                     >
                         Projects
                     </Link>
                     <Link
-                        className="rounded-sm bg-rose-950 text-white px-4 py-2 text-base mr-l drop-shadow-lg"
+                        className="rounded-sm bg-rose-950 text-white px-4 py-2 text-base mr-l drop-shadow-lg hover:bg-rose-800"
                         to="/"
                         role="button">
                         LinkedIn
